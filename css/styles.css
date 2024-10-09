@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(218, 235, 254);
+}
+
+.grid_container{
+   
+   width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+    /*grid-template-rows: repeat(g,100px);*/
+    grid-auto-rows: 200px;
+    gap: 1rem;
+
+}
+
+.grid_items{
+    color: black;
+    font-size: 1.5rem;
+    text-align:center;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+       
+
+}
+.grid_items:nth-child(1){
+    
+    grid-column: span 3;
+   
+}
+.grid_items:nth-child(2){
+   
+    background-image: url("../images/guacamayo2.jpg");
+    grid-column: span 2;
+}
+.grid_items:nth-child(3){
+    background-image: url("../images/guacamayo3.jpg");   
+}
+.grid_items:nth-child(4){
+    background-image: url("../images/guacamayo4.jpg");  
+    
+}
+.grid_items:nth-child(5){
+    background-image: url("../images/guacamayo5.jpg");
+    grid-column: span 2;  
+    grid-row: span 2;  
+}
+.grid_items:nth-child(6){
+    background-image: url("../images/guacamayo6.jpg");   
+}
+.grid_items:nth-child(7){
+    background-image: url("../images/guacamayo7.jpg");  
+    grid-column: span 2;  
+}
+.grid_items:nth-child(8){
+    background-image: url("../images/guacamayo8.jpg");   
+}
+.grid_items:nth-child(9){
+    background-image: url("../images/guacamayo9.jpg");   
+}
+.grid_items:nth-child(10){
+    background-image: url("../images/guacamayo10.jpg");   
+}
+.grid_items:nth-child(11){
+    background-image: url("../images/guacamayo12.jpg");   
+    grid-column: span 3; 
+}
