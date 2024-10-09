@@ -28,4 +28,4 @@ Valoración:
 
 CSS Grid - Care Bears – Figma https://www.figma.com/file/YKCHtJHfeCBGto7YsxWPOE/CSS-Grid---Care-Bears
 
-GiyhPage - https://yuliana-alcala.github.io/projectGrid/git 
+GithubPage - https://yuliana-alcala.github.io/projectGrid/ 
